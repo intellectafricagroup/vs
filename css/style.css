@@ -1,0 +1,230 @@
+    html{
+        margin: 0;
+    }
+        
+        
+    body {
+     font-family: 'Wix Madefor Display', sans-serif;
+     color: #333;
+     line-height: 1.42857143;
+     font-size: 14px;
+    }
+
+    .vslogo {
+      height: 10vh;
+      width: 100%;
+      margin: 0;
+    }
+
+
+    .dropdown-background {
+      background-color: #1b2a3a;      
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: 	#55b2a6;
+        font-size: 17px;
+        line-height: 1.5;
+        font-weight:500;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-size: 16px;
+        text-transform:capitalize;
+        color: #000;
+        font-weight: 500;  
+    }
+
+    .main-nav {
+      background-color: #1b2a3a;
+      height: 100px;
+      padding: 0% 2%;
+      position: fixed;
+      width: 100%;
+      gap: 2rem;
+    }
+
+    .navbar {
+      z-index: 1040;
+    }
+
+    .gradient-background {
+       background-color: #1b2a3a;
+       padding-left: 2%;
+
+    }
+
+    .container-services {
+      padding: 100px 45px;
+    }
+
+    .card {
+      margin: 0px 0px 30px 0px;
+    }
+
+    a:hover {
+      color:#0d6efd;
+    }
+
+    a {
+      color: #00c480;
+    }
+    .btn {
+      font-size: 16px;
+    }
+    
+    .btn:hover {
+      background-color:#0d6efd;
+      border-style: none;
+    }
+
+    .resized-image{
+      width: 90%;
+      height: auto;
+      border-top: 10px;
+      border-radius: 2%;
+      border-style: solid;
+      border-color: #00c480;
+ 
+    }
+
+    .risk-image {
+      width: 55%;
+      height: auto;
+    }
+
+    .main-picture {
+      padding-top: 50px;
+
+    }
+
+
+    #carouselHero .carousel-item img {
+        object-fit: cover;
+        object-position: right top;
+        height: 70vh;
+        width: 100%;
+        overflow:hidden
+    }
+
+    .headings-container {
+      margin-top: 3%;
+      margin-left: 20%;
+      margin-right: 20%;
+      text-align: center;
+    }
+
+    .main-headings{
+      text-transform:normal;
+    }
+
+    .heading-text {
+      color: #00c480;
+      font-size: 40px;
+      font-style: italic;
+      font-family: 'Times New Roman', Times, serif;      
+    }
+
+    .icon-square {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 0.75rem;
+    }
+
+    .pricing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      gap: 2rem;
+      padding: 20px;
+    }
+
+    .pricing-plan {
+      flex: 1;
+      padding: 50px 15px;
+      background-color: #F4F8F6;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .plan-title {
+      font-weight: normal;
+      margin-bottom: 10px;
+
+    }
+
+    .plan-features {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+
+    .plan-button {
+      padding: 10px 25%;
+      border-radius: 5px;
+      background-color: #00c480;
+      color: #fff;
+      border: none;
+    }
+
+    @media (max-width: 600px) {
+      .pricing-container {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+      }
+
+      .headings-container {
+        padding: 0% 10%
+      }
+
+      #carouselHero .carousel-item img {
+        object-position: 50% 50%;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-size: 25px;
+    }
+
+      body {
+        font-size: 16px;
+      }
+
+      h4 {
+        font-size: 20px;
+      }   
+
+      .headings-container {
+        padding-top: 8%;
+        margin: 0;
+      }
+
+      .heading-text-con {
+        padding-bottom: 10%;
+      }
+
+      .resized-image{
+        height: 100%;
+        width: 100%;
+      }
+
+      .container-services {
+        padding: 100px 10px;
+        margin: 0;
+      }
+
+      .vslogo {
+        height: 10vh;
+        width: 100%;
+      }
+
+
+      }
+
+      .footer-text {
+        color: #f1f1f1;
+        
+      }
+
